@@ -6,6 +6,6 @@ import { useRouter } from 'next/navigation';
 
 export default function Home() {
   const { push } = useRouter();
-  useEffect(() => {push('/overview');}, []);
+  useEffect(() => {push('/overview');});
   return <></>;
 }

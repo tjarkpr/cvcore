@@ -2,6 +2,7 @@ node_modules
 target
 dist
 logs
+out
 .cache
 .vscode
 .DS_Store

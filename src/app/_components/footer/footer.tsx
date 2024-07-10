@@ -13,7 +13,7 @@ export const Footer: React.FC = () => {
                 <a href="/data_protection"> | Data Protection</a>
                 <p className="cursor-pointer inline" id="klaro_cookies_button"> | Cookies</p>
             </div>
-            <script src="/footer.js"></script>
+            <script src="/footer.js" async></script>
         </footer>
     )
 };
