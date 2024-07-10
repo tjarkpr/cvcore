@@ -9,7 +9,7 @@ export default function Page() {
         {__Snippets()}
       </div>
       <div className="h-2/3 page">
-        <div className="page-content px-10 py-6 overflow-scroll no-scrollbar scroll-smooth">
+        <div className="page-content px-10 py-6 overflow-y-scroll no-scrollbar scroll-smooth">
           {__Entries()}
         </div>
       </div>
@@ -18,7 +18,7 @@ export default function Page() {
 }
 
 function __Snippets(): JSX.Element {
-  return (<div className="p-4 flex flex-row flex-nowrap justify-start items-start overflow-scroll experience-container no-scrollbar scroll-smooth">
+  return (<div className="pb-4 px-4 flex flex-row flex-nowrap justify-start items-start overflow-x-scroll overflow-y-hidden experience-container no-scrollbar scroll-smooth">
     {ExperienceData.map((element, index) => {
       return (<ExperienceCard
         key={index}
