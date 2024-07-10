@@ -1,0 +1,189 @@
+.max_header {
+    position: absolute;
+    font-size: 4.5vw;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: var(--primary-color) 0px 3.5vw;
+    transform: translateY(-100%);
+}
+
+.max_subheader {
+    font-size: 3.5vw;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 2.5vw;
+    padding-bottom: 5vw;
+}
+
+.body_me > p {
+    max-width: 600px;
+}
+
+.card {
+    background-color: var(--background-color);
+    border-radius: 10px;
+}
+
+.c-mt {
+    margin-top: 7px;
+}
+
+.c-mb {
+    margin-bottom: 7px;
+}
+
+.c-ms {
+    margin-left: 7px;
+}
+
+.c-me {
+    margin-right: 7px;
+}
+
+.card-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cv-card > img {
+    width: 60px;
+    height: 60px;
+}
+
+#cv-card > p {
+    text-align: center;
+    font-size: 7px;
+    line-height: 7px;
+}
+
+#title-card > .card-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+}
+
+#title-card > .card-content {
+    padding-top: 2.5%;
+}
+
+#title-card > .card-header > .card-title {
+    width: 60%;
+    font-size: 23px;
+    font-weight: 800;
+    line-height: 23px;
+}
+
+#title-card > .card-header > span {
+    font-size: 6px;
+    font-weight: 300;
+}
+
+#title-card > .card-content > span {
+    display: block;
+    font-size: 9px;
+    font-weight: 300;
+}
+
+#me-card {
+    position: relative;
+}
+
+#me-card > img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 105%;
+    height: 105%;
+    max-width: 105%;
+}
+
+.card-1-1 > img {
+    width: 65%;
+    height: 65%;
+}
+
+.card-1-1 {
+    width: 46px;
+    height: 46px;
+}
+
+.card-2-2 {
+    width: 100px;
+    height: 100px;
+}
+
+.card-4-2 {
+    width: 208px;
+    height: 100px;
+}
+
+.card-2-4 {
+    width: 100px;
+    height: 208px;
+}
+
+@media (min-width: 768px) {
+    #title-card > .card-header > .card-title {
+        font-size: 48px;
+        line-height: 48px;
+    }
+    
+    #title-card > .card-header > span {
+        font-size: 14px;
+    }
+    
+    #title-card > .card-content > span {
+        font-size: 20px;
+    }
+
+    .c-mt {
+        margin-top: 15px;
+    }
+    
+    .c-mb {
+        margin-bottom: 15px;
+    }
+    
+    .c-ms {
+        margin-left: 15px;
+    }
+    
+    .c-me {
+        margin-right: 15px;
+    }
+
+    #cv-card > img {
+        width: 119px;
+        height: 119px;
+    }
+
+    #cv-card > p {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .card-1-1 {
+        width: 93px;
+        height: 93px;
+    }
+    
+    .card-2-2 {
+        width: 201px;
+        height: 201px;
+    }
+    
+    .card-4-2 {
+        width: 417px;
+        height: 201px;
+    }
+    
+    .card-2-4 {
+        width: 201px;
+        height: 417px;
+    }
+}

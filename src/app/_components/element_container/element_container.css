@@ -1,0 +1,7 @@
+.element_container {
+    background-color: var(--primary-color);
+    border-radius: 25px;
+    border: 1px solid var(--secondary-color);
+    padding-top: 2px;
+    padding-left: 2px;
+}

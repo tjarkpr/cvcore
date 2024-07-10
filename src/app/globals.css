@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-color: #EFEFEF;
+  --primary-color: #FFFFFF;
+  --secondary-color: #E6E6E6;
+  --text-color: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+	  --background-color: #2E2E2E;
+    --primary-color: #000000;
+    --secondary-color: #252525;
+    --text-color: #FFFFFF;
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+    --background-color: #EFEFEF;
+    --primary-color: #FFFFFF;
+    --secondary-color: #E6E6E6;
+    --text-color: #000000;
+	}
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+  }
+}

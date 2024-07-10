@@ -1,0 +1,30 @@
+.experience-card {
+    min-width: 260px;
+    max-width: 318px;
+}
+
+.employer-icon {
+    height: 50px;
+    width: 50px;
+}
+
+.info-box {
+    height: 40px;
+}
+
+.info-icon {
+    height: 15px;
+    width: 15px;
+}
+
+.info-text {
+    text-align: center;
+    text-wrap: nowrap;
+    font-size: 0.525rem;
+    line-height: 0.675rem;
+}
+
+.main-container .text-xs {
+    font-size: 0.525rem !important;
+    line-height: 0.675rem !important;
+}

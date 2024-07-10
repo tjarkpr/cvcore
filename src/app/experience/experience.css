@@ -1,0 +1,23 @@
+.main-container {
+    height: calc(100vh - 254px);
+}
+.page > .page-content {
+    background-color: var(--primary-color);
+    height: 100%;
+}
+.experience-container > .experience-card:not(:first-child) {
+    margin-left: 1rem;
+}
+.experience-entry:not(:last-child) {
+    margin-bottom: 2rem;
+}
+@media (min-width: 408px) {
+    .main-container {
+        height: calc(100vh - 239px);
+    }
+}
+@media (min-width: 768px) {
+    .main-container {
+        height: calc(100vh - 119px);
+    }
+}

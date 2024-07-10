@@ -1,0 +1,132 @@
+#klaro .klaro .cookie-notice:not(.cookie-modal-notice) {
+    background-color: var(--background-color);
+    border: 1px solid var(--primary-color);
+    color: var(--text-color);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    bottom: 0;
+    box-shadow: none;
+}
+#klaro .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body p {
+    color: var(--text-color);
+}
+#klaro .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body a {
+    color: var(--text-color) !important;
+    text-decoration: underline !important;
+}
+#klaro .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body strong {
+    color: var(--text-color);
+    font-weight: 600;
+}
+#klaro .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-decline {
+    background-color: transparent;
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+#klaro .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cm-btn-success {
+    background: var(--text-color);
+    color: var(--primary-color);
+    border-radius: 5px !important;
+    text-transform: uppercase;
+}
+#klaro .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-learn-more {
+    color: var(--klaro-text-color);
+    text-transform: uppercase;
+    flex-grow: unset;
+    margin-right: auto;
+}
+@media (min-width: 768px) {
+    #klaro .klaro .cookie-notice:not(.cookie-modal-notice) {
+        position: fixed;
+        right: 2.5rem;
+        left: auto;
+        bottom: 0;
+        top: auto;
+        max-width: 400px;
+    }
+}
+#klaro .klaro .cookie-modal .cm-modal.cm-klaro {
+    background-color: var(--background-color);
+    border-radius: 5px;
+    box-shadow: none;
+    padding: 0.5em;
+}
+#klaro .klaro .cookie-modal .hide {
+  cursor: pointer;
+}
+#klaro .klaro .cookie-modal .hide svg {
+  stroke: var(--text-color) !important;
+}
+#klaro .klaro .cookie-modal .cm-header {
+    border-bottom: none;
+    margin: 1em 0;
+    padding: 0.5em;
+}
+#klaro .klaro .cookie-modal .cm-header .title {
+  color: var(--text-color);
+  text-transform: uppercase;
+}
+#klaro .klaro .cookie-modal .cm-header .title u {
+  text-decoration: none;
+}
+#klaro .klaro .cookie-modal .cm-header p {
+  color: var(--text-color);
+}
+#klaro .klaro .cookie-modal .cm-header p a {
+  color: var(--text-color);
+  text-decoration: underline;
+}
+#klaro .klaro .cookie-modal .cm-body .cm-purpose label {
+  color: var(--text-color);
+}
+#klaro .klaro .cookie-modal .cm-body .cm-purpose .cm-list-description {
+  color: var(--text-color);
+}
+#klaro .klaro .cookie-modal .cm-body .cm-purpose .cm-services a {
+  color: var(--text-color);
+}
+#klaro .klaro .cookie-modal .cm-body .cm-purpose .cm-services .cm-service .purposes {
+  color: var(--text-color) !important;
+}
+#klaro .klaro .cookie-modal .cm-body .cm-purpose .cm-list-input.half-checked:checked + .cm-list-label .slider {
+  background: var(--primary-color);
+}
+#klaro .klaro .cookie-modal .cm-body .cm-purpose .cm-list-input.only-required + .cm-list-label .slider {
+  background: var(--primary-color);
+}
+#klaro .klaro .cookie-modal .cm-body .cm-purpose .cm-list-input.required:checked + .cm-list-label .slider {
+  background: var(--text-color);
+}
+#klaro .klaro .cookie-modal .cm-body .cm-purpose .cm-list-input:checked + .cm-list-label .slider {
+  background: var(--text-color);
+}
+#klaro .klaro .cookie-modal .cm-body .cm-purpose .cm-switch .slider {
+  box-shadow: none;
+}
+#klaro .klaro .cookie-modal .cm-body .cm-purpose.cm-toggle-all {
+  border-top: none;
+}
+#klaro .klaro .cookie-modal .cm-footer {
+  margin-top: 1em;
+  border-top: none;
+  padding: 0.5em;
+}
+#klaro .klaro .cookie-modal .cm-footer .cn-decline {
+  background: transparent;
+  color: var(--text-color);
+  border-radius: 5px !important;
+  text-transform: uppercase;
+}
+#klaro .klaro .cookie-modal .cm-footer .cm-btn-accept {
+  background: transparent;
+  border: 0.5px solid var(--text-color) !important;
+  color: var(--text-color);
+  border-radius: 5px !important;
+  text-transform: uppercase;
+}
+#klaro .klaro .cookie-modal .cm-footer .cm-btn-accept-all {
+  background: var(--text-color);
+  color: var(--primary-color);
+  border-radius: 5px !important;
+  text-transform: uppercase;
+}
